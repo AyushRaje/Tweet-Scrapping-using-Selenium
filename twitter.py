@@ -141,8 +141,8 @@ def ConvertToExcel(data):
 
 
 # Please change the username and password to your own twitter login credentials
-username="AyushRaje56607"
-password="ayush@834911"
+username="your_username"
+password="your_password"
 
 #Change the parameters passed in this Function acc. to your input excel sheet
 twitter_links=ExtractLinks('Input.xlsx','Sheet1','E')
