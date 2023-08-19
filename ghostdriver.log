@@ -1,0 +1,35 @@
+[INFO  - 2023-08-16T14:57:54.928Z] GhostDriver - Main - running on port 50617
+[INFO  - 2023-08-16T14:57:59.204Z] Session [4a4bddc0-3c45-11ee-9298-1dd262f2e047] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2023-08-16T14:57:59.204Z] Session [4a4bddc0-3c45-11ee-9298-1dd262f2e047] - page.customHeaders:  - {}
+[INFO  - 2023-08-16T14:57:59.207Z] Session [4a4bddc0-3c45-11ee-9298-1dd262f2e047] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2023-08-16T14:57:59.207Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 4a4bddc0-3c45-11ee-9298-1dd262f2e047
+[ERROR - 2023-08-16T14:58:00.800Z] Session [4a4bddc0-3c45-11ee-9298-1dd262f2e047] - page.onError - msg: TypeError: Incompatible receiver, Symbol required
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2023-08-16T14:58:00.800Z] Session [4a4bddc0-3c45-11ee-9298-1dd262f2e047] - page.onError - stack:
+  (anonymous function) (https://abs.twimg.com/responsive-web/client-web-legacy/polyfills.836eaeda.js:1)
+  (anonymous function) (https://abs.twimg.com/responsive-web/client-web-legacy/polyfills.836eaeda.js:1)
+  String (:0)
+  exports (https://abs.twimg.com/responsive-web/client-web-legacy/polyfills.836eaeda.js:1)
+  it (https://abs.twimg.com/responsive-web/client-web-legacy/polyfills.836eaeda.js:1)
+  (anonymous function) (https://abs.twimg.com/responsive-web/client-web-legacy/polyfills.836eaeda.js:1)
+  n (https://abs.twimg.com/responsive-web/client-web-legacy/polyfills.836eaeda.js:1)
+  ot (https://abs.twimg.com/responsive-web/client-web-legacy/polyfills.836eaeda.js:1)
+  f (https://abs.twimg.com/responsive-web/client-web-legacy/polyfills.836eaeda.js:1)
+  exports (https://abs.twimg.com/responsive-web/client-web-legacy/polyfills.836eaeda.js:1)
+  (anonymous function) (https://abs.twimg.com/responsive-web/client-web-legacy/polyfills.836eaeda.js:1)
+  (anonymous function) (https://abs.twimg.com/responsive-web/client-web-legacy/polyfills.836eaeda.js:1)
+  _ (https://abs.twimg.com/responsive-web/client-web-legacy/polyfills.836eaeda.js:1)
+  r (https://twitter.com/xspacefi/status/1691732008685404184:157)
+  _ (https://abs.twimg.com/responsive-web/client-web-legacy/polyfills.836eaeda.js:1)
+  r (https://twitter.com/xspacefi/status/1691732008685404184:157)
+  _ (https://abs.twimg.com/responsive-web/client-web-legacy/polyfills.836eaeda.js:1)
+  r (https://twitter.com/xspacefi/status/1691732008685404184:157)
+  (anonymous function) (https://abs.twimg.com/responsive-web/client-web-legacy/polyfills.836eaeda.js:1)
+  n (https://twitter.com/xspacefi/status/1691732008685404184:157)
+  n (:0)
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2023-08-16T14:58:01.650Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1692197881602
+
+  phantomjs://platform/console++.js:263 in error
